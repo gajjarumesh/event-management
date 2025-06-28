@@ -43,18 +43,7 @@ This project is a basic Event Management System built using the latest Laravel v
    php artisan storage:link
    ```
 
-7. Setup queue tables (for queued emails):
-   ```bash
-   php artisan queue:table
-   php artisan migrate
-   ```
-
-8. Start the queue worker (required for email sending):
-   ```bash
-   php artisan queue:work
-   ```
-
-9. Start the application:
+7. Start the application:
    ```bash
    php artisan serve
    ```
